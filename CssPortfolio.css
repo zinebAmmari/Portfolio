@@ -284,7 +284,7 @@ h1,h2,h2,p,a,ul,li{
   }
   @media (max-width: 768px) {
     .haut-gauche { width: 100%; margin-bottom: 1em; }
-    .haut-droite { display: none; }
+    
     nav a { display: block; }
     .milieu-gauche { width: 100%; }
     .milieu-droite { width: 100%; }
