@@ -301,9 +301,29 @@ h1,h2,h2,p,a,ul,li{
     header { padding: 0.5em;}
   }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     .haut-droite {
         display: none;
-    } */
+    }
+
+    .haut-gauche {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1em;
+    }
+
+    .haut-gauche h1 {
+        margin: 10px 0;
+    }
+
+    .haut-gauche h2 {
+        margin: 5px 0;
+    }
+
+    .haut-gauche a {
+        display: inline-block;
+        margin: 10px 0;
+        font-size: 18px;
+    }
 }
 
