@@ -1,0 +1,303 @@
+h1,h2,h2,p,a,ul,li{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  }
+  html, body {
+  margin: 0;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 0.8em;
+  background: url(background.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #a498c3;
+  line-height: 18px;
+  }
+  header{
+  padding: 0 0 0.3em 0;
+  margin: 0 0 2em 0;
+  }
+  section{ min-height: 700px; }
+  footer{ 
+  margin: 2em 0 0 0; 
+  text-align: center; 
+  padding: 20px 0; 
+  }
+  .conteneur{
+  max-width: 1170px;
+  margin: 0 auto;
+  }
+  
+  .clear{
+  clear: both;
+  }
+  .haut-gauche{
+  float: left;
+  width: 70%;
+  }
+  .haut-droite{
+  float: right;
+  width: 25%;
+  height: 75px;
+  }
+  nav{
+  margin: 0;
+  text-align: center;
+  /
+  }
+  .milieu-haut-gauche{
+  float: left;
+  width: 30%;
+  
+  }
+  .milieu-haut-droite{
+  float: left;
+  width: 70%;
+  font-size: 1.2em;
+  vertical-align: middle;
+  display: table; 
+  line-height: 1.3em;
+  text-align: center;
+  height: 20vh; 
+  }
+  .milieu-gauche{
+  float: left;
+  width: 60%;
+  margin: 1.5em 0 1.5em 0;
+  }
+  .milieu-droite{
+  float: right;
+  width: 30%;
+  margin: 1.5em 0 1.5em 0;
+  }
+  
+  /* haut du portfolio */
+  .haut-gauche   h1{
+  color: #a498c3;
+  font-size: 1.7em;
+  margin: 10px 0 0 55px;
+  text-shadow: 1px 1px 1px;
+  font-size: 20px;
+  }
+  .haut-gauche h1:hover{
+  color: #f19bb4;
+  background: #a498c3;
+  border-radius: 20px;
+  transition: padding .2s;
+  }
+  .haut-gauche   h2{
+  margin: 5px 0 0 0;
+  font-size: 1.1em;
+  letter-spacing: 3px;
+  }
+  
+  .haut-gauche   h2   span{
+  color: #f19bb4;
+  }
+  .haut-droite    a{
+  color: #f19bb4;
+  display: block;
+  text-align: right;
+  }
+  .haut-droite    a:first-child{
+  margin: 10px 0 0 0;
+  font-size: 18px;
+  }
+  .haut-droite   a:hover{
+  text-decoration: none;
+  }
+  nav li {  
+  display: inline;  
+  list-style: none;  
+  
+  }  
+  nav   a{
+  display:inline-block;  
+  line-height: 30px;
+  color: #f19bb4;
+  padding: 0 5%;
+  }
+  nav   a:hover{
+  color: #f19bb4;
+  background: #61a0e8;
+  border-radius: 20px;
+  transition: padding .2s;
+  }
+  /* milieu du portfolio */
+  .bleu{ color: #f19bb4; }
+  .gras{ font-weight: bold; }
+  .italic{ font-style: italic; }
+  .milieu-haut-gauche{
+  float: left;
+  width: 30%;
+  }
+  .milieu-haut-droite{
+  float: left;
+  width: 70%;
+  font-size: 1.2em;
+  vertical-align: middle;
+  display: table; 
+  line-height: 1.3em;
+  text-align: center;
+  height: 20vh; 
+  /* background: orange; */
+  }
+  .milieu-haut-droite  p{
+  display: table-cell; 
+  vertical-align: middle;
+  }
+  .milieu-gauche{
+  float: left;
+  width: 60%;
+  margin: 1.5em 0 1.5em 0;
+  }
+  .milieu-gauche  h2, .milieu-bas  h2 {
+  color: #f19bb4;
+  padding: 0.5em;
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  }
+  .milieu-gauche-profil{ float: left; width: 15%; }
+  .milieu-droite-profil{ float: left; margin-left: 5%; width: 80%; padding: 1em 0 0 0; }
+  .milieu-bas-competences{ margin: 3em 0 0 0; }
+  .milieu-bas-design{ width: 20%; float: left; margin-right: 5%; text-align: center; min-height: 300px; }
+  .milieu-bas-integration{ width: 20%; float: left; margin-right: 5%;text-align: center; min-height: 300px;  }
+  .milieu-bas-developpement{ width: 20%; float: left; margin-right: 5%;text-align: center; min-height: 300px;  }
+  .milieu-bas-referencement{ width: 20%; float: left;text-align: center; min-height: 300px;  }
+  .milieu-bas-competences  img{transition: 0.5s; }
+  .milieu-bas-competences  img:hover{ transform: rotate(-360deg); }
+  .img-responsive{ width: 100%; }
+  .responsive30{ width: 100%; }
+  .img-responsive50{ width: 80%; }
+  .img-responsive70{ width: 70%; }
+  .milieu-gauche  ul  li{
+  list-style-type: none;
+  padding: 0 0 0 30px;
+  margin: 3% 0;
+  
+  }
+  ul li :not(#experience){
+      font-size: 20px;
+  }
+  .milieu-droite{
+  float: right;
+  width: 30%;
+  margin: 1.5em 0 1.5em 0;
+  }
+  .milieu-droite   .cadre{
+  border-radius: 10px;
+  margin: 15px 0;
+  }
+  .milieu-droite   .cadre:first-child{ margin: 0; }
+  .milieu-droite   .cadre  h2{
+  color: #f19bb4;
+  font-size: 15px;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 10px 10px 0 0;
+  }
+  .milieu-droite   .cadre  p{
+  padding: 10px;
+  }
+  .milieu-droite   .cadre  form{
+  padding: 10px;
+  }
+  .milieu-droite   .cadre  ul  li{
+  margin: 10px 0 0 30px;
+  padding: 5px;
+  
+  }
+  input[type="submit"]{
+      color: #f19bb4;
+      background-color: #ebd492;
+      margin: 1em 0 0 0;
+      border-color: #f19bb4;
+      display: inline-block;
+      padding: .5em 1em;
+      font-weight: 400;
+      line-height: 1.2;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: middle;
+      cursor: pointer;
+      border: 1px solid transparent;
+      border-radius: .2em;
+      text-decoration: none;
+  }
+  input[type="submit"]:hover{
+  background: #61a0e8;
+  }
+  input { width: 100%; }
+  textarea{ resize: none; width: 100%; }
+  
+  /* bas du portfolio */
+  
+  footer{
+  margin: 2em 0 0 0;
+  text-align: center;
+  padding: 20px 0;
+  }
+  footer  a{
+  color: #f19bb4;
+  font-size: 20px;
+  }
+  footer  a:hover{
+  text-decoration: none;
+  }
+  footer  p{
+  margin: 7px 0 0 0;
+  font-size: 20px;
+  }
+  footer   p:hover{
+  color: #f19bb4;
+  background: #a498c3;
+  border-radius: 20px;
+  transition: padding .2s;
+  }
+  footer   a:hover{
+  
+  background: #61a0e8;
+  border-radius: 20px;
+  transition: padding .2s;
+  }
+  
+  
+  @media (max-width: 768px) {  
+  .haut-gauche{font-variant: small-caps ;position: relative; right: 25px;} 
+  .haut-droite{ display: none;display: flex; justify-content: center;} 
+  nav   a{ display: block; }
+  .milieu-gauche{ width: 100%;}
+  .milieu-droite{ width: 100%;}
+  .milieu-droite   .cadre{ width: 100%; }
+  .milieu-haut-gauche, .milieu-haut-droite{ width: 100%; }
+  .milieu-bas-design{ width: 40%; }
+  .milieu-bas-integration{ width: 40%;  }
+  .milieu-bas-developpement{ width: 40%; }
+  .milieu-bas-referencement{ width: 40%;  }
+  }
+  img{
+    position: relative;
+    top: 10px;
+    border-radius: 80%;
+  }
+  @media (max-width: 768px) {
+    .haut-gauche { width: 100%; margin-bottom: 1em; }
+    .haut-droite { display: none; }
+    nav a { display: block; }
+    .milieu-gauche { width: 100%; }
+    .milieu-droite { width: 100%; }
+    .milieu-droite .cadre { width: 100%; }
+    .milieu-haut-gauche, .milieu-haut-droite { width: 100%; }
+    .milieu-bas-design, .milieu-bas-integration, .milieu-bas-developpement, .milieu-bas-referencement { width: 100%; margin-right: 0; }
+    .img-responsive { max-width: 100%; height: auto; }
+}
+  @media (min-width: 769px) and (max-width: 990px) {
+    body { font-size: 0.9em;}
+  }
+  
+  @media (min-width: 991px) {
+    header { padding: 0.5em;}
+  }
+  
